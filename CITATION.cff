@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use PUFFER, please cite the accompanying paper."
+title: "PUFFER: Incremental Fuzzy Deduplication for Continuously Evolving Corpora"
+abstract: >-
+  PUFFER (Provenance-aware Updatable Fuzzy Filtering for Evolving Repositories)
+  is a CPU-first engine for incremental MinHash-LSH fuzzy deduplication of
+  continuously growing corpora, with exact band-key membership, bounded memory,
+  deterministic retry, and dataset-scoped withdrawal.
+type: software
+version: 0.1.0
+license: Apache-2.0
+repository-code: "https://github.com/Zyphra/puffer"
+authors:
+  - given-names: Xiao
+    family-names: Yang
+    affiliation: Zyphra
+  - given-names: Erik Edward
+    family-names: Aldape
+    affiliation: Zyphra
+  - given-names: Beren
+    family-names: Millidge
+    affiliation: Zyphra
+preferred-citation:
+  type: article
+  title: "PUFFER: Incremental Fuzzy Deduplication for Continuously Evolving Corpora"
+  year: 2026
+  authors:
+    - given-names: Xiao
+      family-names: Yang
+      affiliation: Zyphra
+    - given-names: Erik Edward
+      family-names: Aldape
+      affiliation: Zyphra
+    - given-names: Beren
+      family-names: Millidge
+      affiliation: Zyphra
+  url: "https://arxiv.org/abs/2608.28622"
+  identifiers:
+    - type: other
+      value: "arXiv:2608.28622"
+      description: "arXiv preprint"
+    - type: doi
+      value: "10.48550/arXiv.2608.28622"
+      description: "arXiv DOI"

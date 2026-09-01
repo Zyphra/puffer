@@ -127,6 +127,20 @@ python -m pip install -e ".[dev]"
 python -m pytest
 ```
 
+## Citation
+
+If you use PUFFER, please cite:
+
+```bibtex
+@article{yang2026puffer,
+  title   = {PUFFER: Incremental Fuzzy Deduplication for Continuously Evolving Corpora},
+  author  = {Yang, Xiao and Aldape, Erik Edward and Millidge, Beren},
+  journal = {arXiv preprint arXiv:2608.28622},
+  year    = {2026},
+  url     = {https://arxiv.org/abs/2608.28622}
+}
+```
+
 ## License
 
 Apache-2.0
